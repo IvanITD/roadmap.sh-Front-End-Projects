@@ -5,41 +5,38 @@
         <title>Contact Me</title>
     </head>
     <body>
-        <nav>
-            <a href="/Basic-HTML-Website/main/index.html" class="home-nav">Home</a> 
+        <nav aria-label="Main Navigation">
+            <a href="/Basic-HTML-Website/main/index.html" class="home-nav">Home</a>
             <a href="/Basic-HTML-Website/projects/projects.html" class="projects-nav">Projects</a>
             <a href="/Basic-HTML-Website/articles/articles.html" class="articles-nav">Articles</a>
             <a href="/Basic-HTML-Website/contact/contact.html" class="contact-nav">Contact</a>
         </nav>
         <section class="contact-container"> <!-- Contact Container -->
             <h1>Contact Me</h1> <!-- Main Title -->
-            <p>If you would like to get in touch, please reach out through any
-                of the following methods:</p>
-            <div class="email-container">
-                <h3>Email</h3>
-                <p>You can email me at: <a href="mailto:email@example.com">email@example.com</a></p>
-            </div>
+            <p>If you would like to get in touch, please reach out through any of the following methods:</p>
 
-            <div class="phone-details">
-                <h3>Phone</h3>
+            <address class="email-phone-container">
+                <h2>Email</h2>
+                <p>You can email me at: <a
+                        href="mailto:email@example.com">email@example.com</a></p>
+                <h2>Phone</h2>
                 <p>Call or text me at: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-            </div>
-            
-            <div class="social-details">
-                <h3>Social Media</h3>
+            </address>
+
+            <article class="social-details">
+                <h2>Social Media</h2>
                 <p>Find me on social media:</p>
-                
                 <div class="social-links-container">
-                    <a href="https://www.linkedin.com/in/ivanivanovofficial">LinkedIn</a>
-                    <a href="https://www.facebook.com/ivanITDIvanov/">Facebook</a>
-                    <a href="https://github.com/IvanITD">GitHub</a>
-                    <a href="https://linktr.ee/IvanIvanovOfficial">Ivan Ivanov</a>
+                    <a href="https://www.linkedin.com/in/ivanivanovofficial" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.facebook.com/ivanITDIvanov/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://github.com/IvanITD" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linktr.ee/IvanIvanovOfficial" target="_blank" rel="noopener noreferrer">Ivan Ivanov</a>
                 </div>
-            </div>
+            </article>
         </section>
-    </body>
-    
-    <footer>
+
+        <footer>
             <p>&copy; 2024 Ivan Ivanov. All rights reserved.</p>
-    </footer>
+        </footer>
+    </body>
 </html>

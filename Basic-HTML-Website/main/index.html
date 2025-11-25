@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Basic HTML Website</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic HTML Website</title>
+    </head>
 
-<body>
-    <section ass="first-top-container"> <!--  First Top Container -->
-        <nav> <!-- Navigation Bar -->
-            <a href="/Basic-HTML-Website/main/index.html" class="home-nav">Home</a> 
-            <a href="/Basic-HTML-Website/projects/projects.html" class="projects-nav">Projects</a>
-            <a href="/Basic-HTML-Website/articles/articles.html" class="articles-nav">Articles</a>
-            <a href="/Basic-HTML-Website/contact/contact.html" class="contact-nav">Contact</a>
-        </nav>
-        <h2 class='my-name upper-left'>Ivan Ivanov</h2> <!-- Name in upper left corner -->
-        <h1>Frontend Developer</h1> <!-- Main Title in the center-->
-        <p>html only with proper layout, no styling</p>
-    </section>
-    
-    <section class="second-left-container"> <!-- Second Left Container -->
-        <h3>Projects</h3>
-        <ul class="my-projects">
-            <li class="my-project-two">Calculator</li>
-            <li class="my-project-three">Quiz App</li>
-            <li class="my-project-four">Countdown Timer</li>
-            <li class="my-project-five">Product Upcoming Page</li>
-        </ul>
-    </section>
+    <body>
+        <section class="first-top-container"> <!--  First Top Container -->
+            <nav aria-label="Main Navigation"> <!-- Navigation Bar -->
+                <a href="/Basic-HTML-Website/main/index.html"
+                    class="home-nav">Home</a>
+                <a href="/Basic-HTML-Website/projects/projects.html"
+                    class="projects-nav">Projects</a>
+                <a href="/Basic-HTML-Website/articles/articles.html"
+                    class="articles-nav">Articles</a>
+                <a href="/Basic-HTML-Website/contact/contact.html"
+                    class="contact-nav">Contact</a>
+            </nav>
+            <h2 class='my-name upper-left'>Ivan Ivanov</h2>
+            <!-- Name in upper left corner -->
+            <h1>Frontend Developer</h1> <!-- Main Title in the center-->
+            <p>html only with proper layout, no styling</p>
+        </section>
 
-    <section class="third-middle-up-container"> <!-- Third Middle Up Container -->
-        <h3>Work Experience</h3>
+        <section class="second-left-container"> <!-- Second Left Container -->
+            <h3>Projects</h3>
+            <ul class="my-projects">
+                <li class="my-project-two">Calculator</li>
+                <li class="my-project-three">Quiz App</li>
+                <li class="my-project-four">Countdown Timer</li>
+                <li class="my-project-five">Product Upcoming Page</li>
+            </ul>
+        </section>
 
-        <h4 class="work-exp-one">roadmap.sh</h4>
-        <p class="work-exp-one-desc">Solved all the frontend projects</p>
-        <a href="https://roadmap.sh/u/ivanivanov">Visit my Profile</a>
+        <section class="third-middle-up-container">
+            <!-- Third Middle Up Container -->
+            <h3>Work Experience</h3>
+            <h4 class="work-exp-one">roadmap.sh</h4>
+            <p class="work-exp-one-desc">Solved all the frontend projects</p>
+            <a href="https://roadmap.sh/u/ivanivanov" target="_blank" rel="noopener noreferrer">Visit my
+                Profile</a>
+            <h4 class="work-exp-two">The Odin Project</h4>
+            <p class="work-exp-two-desc">Completed the Foundations Path</p>
+        </section>
 
-        <h4 class="work-exp-two">The Odin Project</h4>
-        <p class="work-exp-two-desc">Completed the Foundations Path</p>
-    </section>
+        <section class="fourth-middle-down-container">
+            <!-- Fourth Middle Down Container -->
+            <h3>OpenSource Work</h3>
+            <p class="work-desc-one">Contributed to 50 opensource projects. Made
+                my own project with 200 GitHub Stars.</p>
+            <a href="https://github.com/IvanITD" target="_blank" rel="noopener noreferrer">Visit my GitHub
+                Profile</a>
+        </section>
 
-    <section class="fourth-middle-down-container"> <!-- Fourth Middle Down Container -->
-        <h3>OpenSource Work</h3> 
-        
-        <p class="work-desc-one">Contributed to 50 opensource projects. Made my own project with 200 GitHub Stars.</p>
-        <a href="https://github.com/IvanITD">Visit my GitHub Profile</a>
-    </section>
+        <section class="fifth-right-container"> <!-- Fifth Right Container -->
+            <h3>Education</h3>
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.<br>
+                Organized 30 sessions.</p>
+            <h4>Courses I took:</h4>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Computer Graphics</li>
+                <li>Database Management Systems</li>
+                <li>Distributed Database Systems</li>
+                <li>Discreet Mathematics</li>
+            </ul>
+        </section>
 
-    <section class="fifth-right-container"> <!-- Fifth Right Container -->
-        <h3>Education</h3>
-        
-        <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.<br> Organized 30 sessions.</p>
-        
-        <h4>Courses I took:</h4>
-        <ul>
-            <li>Object Oriented Programming</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Engineering</li>
-            <li>Artificial Intelligence</li>
-            <li>Human Computer Interaction</li>
-            <li>Computer Graphics</li>
-            <li>Database Management Systems</li>
-            <li>Distributed Database Systems</li>
-            <li>Discreet Mathematics</li>
-        </ul>
-    </section>
+        <section class="sixth-bottom-container">
+            <h3>Reviews from my Teachers</h3>
+            <figure class="review-container-one">
+                <p class="teacher-review-one">"Ivan is a dedicated student who consistently produces high-quality work."</p>
+                <figcaption class="teacher-name-position-one">- Prof. John Smith, Professor of Computer Science</figcaption>
+            </figure>
+            <figure class="review-container-two">
+                <p class="teacher-review-two">"His enthusiasm for learning and collaboration is truly commendable."</p>
+                <figcaption class="teacher-name-two">- Dr. Emily Johnson, Associate Professor of Software Engineering</figcaption>
+            </figure>
+            <figure class="review-container-three">
+                <p class="teacher-review-three">"Ivan's problem-solving skills and creativity set him apart from his peers."</p>
+                <figcaption class="teacher-name-three">- Dr. Michael Brown, Senior Lecturer in Information Technology</figcaption>
+            </figure>
+        </section>
 
-    <section class="sixth-bottom-container">
-        <h3>Reviews from my Teachers</h3>
-
-        <div class="review-container-one">
-            <p class="teacher-review-one">"Ivan is a dedicated student who consistently produces high-quality work."</p>
-            <figcaption class="teacher-name-one">- Prof. John Smith</figcaption>
-            <figcaption class="teacher-position-one">Professor of Computer Science</figcaption>
-        </div>
-        
-        <div class="review-container-two">
-            <p class="teacher-review-two">"His enthusiasm for learning and collaboration is truly commendable."</p>
-            <figcaption class="teacher-name-two">- Dr. Emily Johnson</figcaption>
-            <figcaption class="teacher-position-two">Associate Professor of Software Engineering</figcaption>
-        </div>
-
-        <div class="review-container-three">
-            <p class="teacher-review-three">"Ivan's problem-solving skills and creativity set him apart from his peers."</p>
-            <figcaption class="teacher-name-three">- Dr. Michael Brown</figcaption>
-            <figcaption class="teacher-position-three">Senior Lecturer in Information Technology</figcaption>
-        </div>
-    </section>
-</body>
-<footer>
+        <footer>
             <p>&copy; 2024 Ivan Ivanov. All rights reserved.</p>
         </footer>
+    </body>
+
 </html>
