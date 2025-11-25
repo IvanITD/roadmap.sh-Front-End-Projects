@@ -1,0 +1,18 @@
+© 2025 Ivan Ivanov. All rights reserved.
+
+This repository may contain personal information, including but not limited to:
+- Names
+- Addresses
+- Phone numbers
+- Email addresses
+
+All personal information in this repository is the exclusive property of Ivan Ivanov.
+
+No one may:
+- Copy, reproduce, or distribute any personal information
+- Share or publish personal information in any form
+- Use personal information for any purpose without explicit written permission from Ivan Ivanov
+
+By accessing this repository, you agree to respect this restriction.
+
+For permission requests, please contact: [your email here]
