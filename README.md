@@ -12,6 +12,6 @@ https://roadmap.sh/projects/single-page-cv
 <details>
     <summary>Basic HTML Website</summary>
 
-<p><img src="/image-2.png" width="1000"></p>
+<p><img src="image-2.png" width="1000"></p>
 https://roadmap.sh/projects/basic-html-website
 </details>
