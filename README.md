@@ -1,35 +1,27 @@
-# 🚀 My Roadmap.sh Learning Journey  
-A structured, hands-on path to becoming a full-stack developer.
+# Roadmap.sh — Full-Stack Projects
 
-Welcome to my personal **Roadmap.sh** project repo.  
-This is where I document my progress, build real projects, and apply everything I learn step-by-step.
+A structured collection of hands-on projects built by following the [roadmap.sh](https://roadmap.sh/full-stack) full-stack developer curriculum. Each project focuses on practical skill-building in modern web development.
 
-## 📚 Why This Repo Exists  
-I'm using Roadmap.sh to improve my skills in modern web development:  
-- Clean HTML  
-- Responsive CSS  
-- JavaScript fundamentals  
-- Front-end project building  
-- Git and GitHub workflow  
-- Problem-solving habits
+## Completed Projects
 
-This repo keeps everything **organized**, **transparent**, and **easy to track**.
+### Front-End
 
-# Front-End Projects
-<details>
-    <summary>Single Page CV</summary>
+| Project | Description | Links |
+|---------|-------------|-------|
+| **Single Page CV** | A clean, single-page HTML resume with semantic structure and accessible markup. | [Source](./Front-End/Single-Page-CV) · [Task](https://roadmap.sh/projects/single-page-cv) |
+| **Basic HTML Website** | A multi-page informational site with articles, contact form, and project showcase — built with pure HTML. | [Source](./Front-End/Basic-HTML-Website) · [Task](https://roadmap.sh/projects/basic-html-website) |
 
-<p><img src="image-1.png" width="900"></p>
-https://roadmap.sh/projects/single-page-cv
-</details>
+### Back-End
 
-<details>
-    <summary>Basic HTML Website</summary>
-
-<p><img src="image-2.png" width="900"></p>
-https://roadmap.sh/projects/basic-html-website
-</details>
+*Coming soon.*
 
 ---
 
-# Back-End Projects
+## Skills Practiced
+
+- Semantic HTML & accessible markup
+- Responsive layout fundamentals
+- JavaScript basics
+- Front-end project architecture
+- Git & GitHub workflow
+- Problem-solving & debugging
